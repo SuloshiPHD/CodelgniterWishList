@@ -1,0 +1,109 @@
+
+body {
+    font-family: Verdena;
+}
+
+h3 {
+    color: #11998e;
+    font-family: 'Sofia';
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#wishListDesc{
+    font-size: 25px;
+    font-family: 'Sofia';
+
+}
+button.btn-success{
+    background-image: linear-gradient(to bottom, #11998e 0%, #99ff99 100%);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+button.btn-success:hover {
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom, #00f260 0%, #0575e6 100%);
+}
+button.add-item{
+    background: linear-gradient(to bottom, #00467f 0%, #a5cc82 100%);
+    color: whitesmoke;
+    border: none;
+    padding: 9px 10px;
+    width: 50%;
+
+}
+button.add-item:hover{
+    opacity: 0.8;
+
+}
+
+
+button.edit-item,button.update-item{
+
+    color: black;
+    border: none;
+    padding: 9px 10px;
+    width: 40%;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+}
+button.edit-item:hover,button.update-item:hover{
+    opacity: 0.8;
+
+}
+button.cancel, button.delete-item{
+    background-color: #ED213A;
+    color: whitesmoke;
+    border: none;
+    padding: 9px 10px;
+    width: 40%;
+}
+button.cancel:hover, button.delete-item:hover{
+    opacity: 0.8;
+
+}
+
+input[type=button].btn-danger{
+    background: linear-gradient(to bottom, #c31432 0%, #240b36 100%);
+    color: whitesmoke;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+input[type=button].btn-danger:hover {
+    opacity: 0.8;
+    color: #aa4b6b;
+}
+caption{
+    font-weight: bold;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+}
+#items {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#items td, #items th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+#items tr:nth-child(even){background-color: #f2f2f2;}
+
+#items tr:hover {background-color: #ddd;}
+
+#items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+

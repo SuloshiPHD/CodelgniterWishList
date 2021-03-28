@@ -1,0 +1,107 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 5px solid #f1f1f1;}
+body, html {
+    height: 100%;
+    overflow: hidden; /* Hide scrollbars */
+}
+body.bg{
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+button.CreateWishlistBtn{
+    white-space: nowrap;
+    text-align: center;
+    background-color: red;
+}
+
+button {
+
+    background-image: linear-gradient(to bottom, #11998e 0%, #99ff99 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    float: center;
+    text-align: center;
+    font-family:'Delius Unicase';
+    font-size: 16px;
+    border-radius: 15px;
+    white-space: nowrap;
+
+}
+
+button:hover {
+    opacity: 0.8;
+    background-image: linear-gradient(to bottom, #00f260 0%, #0575e6 100%);
+}
+a {
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.loginicon {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    vertical-align:middle;
+    text-align: center;
+    margin: 24px 0 12px 0;
+
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+h2{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    font-family: 'Amatic SC', cursive;
+}
+logincontent{
+    display:table; height:100%; margin: 0 auto;
+}
+sectionlogin{
+    display:table-cell; vertical-align:middle;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+}
