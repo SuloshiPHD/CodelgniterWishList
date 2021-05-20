@@ -8,8 +8,8 @@ The server-side part of the application developed as a REST API (apart from the 
 ![Create wishlist](https://user-images.githubusercontent.com/47394580/119041393-3480e580-b9d4-11eb-89ca-435fcdfc5a85.PNG)
 ## Add Items 
 ![wishlistview-edit-afteredit](https://user-images.githubusercontent.com/47394580/119041483-4febf080-b9d4-11eb-96fe-13231df3b48a.PNG)
-
-
+## Share Link
+![shareLink](https://user-images.githubusercontent.com/47394580/119041689-8cb7e780-b9d4-11eb-84c8-6be38590e9f5.PNG)
 
 # CodeIgniter Rest Server
 
