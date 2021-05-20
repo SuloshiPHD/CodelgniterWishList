@@ -1,3 +1,16 @@
+# Development of wish list application
+A wish list is a list of things that you would like to have or be given – for example, Amazon have wish lists where you can list items you would like to buy at some point in the future. Wish lists can be created for many different reasons – birthdays, Christmas, weddings, births, moving house etc.
+
+The server-side part of the application developed as a REST API (apart from the controller function that is responsible for loading the initial page). The client-side part of the application developed using the Backbone Javascript framework.
+## Register User Page
+![Register2](https://user-images.githubusercontent.com/47394580/119041269-0b605500-b9d4-11eb-9bb8-1436413e5acb.PNG)
+## Create Wish List Page
+![Create wishlist](https://user-images.githubusercontent.com/47394580/119041393-3480e580-b9d4-11eb-89ca-435fcdfc5a85.PNG)
+## Add Items 
+![wishlistview-edit-afteredit](https://user-images.githubusercontent.com/47394580/119041483-4febf080-b9d4-11eb-96fe-13231df3b48a.PNG)
+
+
+
 # CodeIgniter Rest Server
 
 [![Gitter chat](https://badges.gitter.im/chriskacerguis/codeigniter-restserver.png)](https://gitter.im/codeigniter-restserver/Lobby) [![Build Status](https://travis-ci.org/chriskacerguis/codeigniter-restserver.svg?branch=master)](https://travis-ci.org/chriskacerguis/codeigniter-restserver)
